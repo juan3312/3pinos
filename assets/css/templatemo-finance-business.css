@@ -1041,7 +1041,7 @@ footer .contact-form button.filled-button {
 
 footer .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #0A316A;;
+	color: #0A316A;
 }
 
 
@@ -1154,9 +1154,9 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #0A316A;
+	background-color: #A1A1A1 ;
   	font-size: 20px;
-  	color: #121212;
+  	color: #0A316A;
   	letter-spacing: 0.5px;
   	font-weight: 700;
   	transition: all 0.3s;
