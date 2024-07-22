@@ -813,6 +813,8 @@ h2{
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 35px;
+	padding: 0px;
+	text-align: left;
 }
 
 .more-info .right-content em {
@@ -1221,8 +1223,7 @@ footer .contact-form button.filled-button:hover {
 .team {
 	background-color: #f7f7f7;
 	margin-top: 140px;
-	margin-bottom: -140px;
-	padding: 120px 0px;
+	padding: 100px 0px;
 }
 
 .team-item img {
@@ -1233,6 +1234,7 @@ footer .contact-form button.filled-button:hover {
 .team-item .down-content {
 	background-color: #fff;
 	padding: 30px;
+	height: 450px;
 }
 
 .team-item .down-content h4 {
