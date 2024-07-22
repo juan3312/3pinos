@@ -1297,6 +1297,7 @@ footer .contact-form button.filled-button:hover {
 }
 #tabs ul .ui-tabs-active a {
   color: #fff;
+  background-color: #0A316A;
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
