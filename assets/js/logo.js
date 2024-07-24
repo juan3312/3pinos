@@ -1,4 +1,4 @@
-// Get the logo image element
+/* Get the logo image element
 const LogoImg = document.getElementById('Logo-img');
 
 // Add event listener to the window scroll event
@@ -11,4 +11,4 @@ window.addEventListener('scroll', () => {
         // Change the logo image src back to the original
         LogoImg.src = '../images/azul.png';
     }
-});
+});*/
