@@ -9,7 +9,6 @@ jQuery( document ).ready(function( $ ) {
             $( "#tabs" ).tabs();
         });
 
-
         // Page loading animation
 
         $("#preloader").animate({
@@ -19,6 +18,8 @@ jQuery( document ).ready(function( $ ) {
                 $("#preloader").css("visibility", "hidden").fadeOut();
             }, 300);
         });       
+
+
 
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
@@ -166,3 +167,6 @@ $(document).ready(function(){
         }]
     });
 });
+
+
+

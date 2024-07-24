@@ -1435,6 +1435,16 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
+
+	.callback-form {
+		margin-top: 140px;
+		background-color: #f7f7f7;
+		padding: 50px;
+	}
+	.services {
+		background: #f7f7f7;
+		padding: 50px;
+	}
 }
 
 @media (max-width: 992px) {
@@ -1476,5 +1486,14 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .show>.nav-link {
 		color: #0A316A!important;
 		border-bottom: none!important;
+	}
+	.callback-form {
+		margin-top: 140px;
+		background-color: #f7f7f7;
+		padding: 50px;
+	}
+	.services {
+		background: #f7f7f7;
+		padding: 50px;
 	}
 }
