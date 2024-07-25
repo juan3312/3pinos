@@ -42,6 +42,7 @@ a.filled-button {
 	border-radius: 30px;
 	display: inline-block;
 	transition: all 0.3s;
+	margin-top:25px;
 }
 
 a.filled-button:hover {
@@ -1018,6 +1019,11 @@ h2{
 	margin: auto;
 }
 
+#myfit{
+
+	font-size: 20px;
+	font-weight: 600;
+}
 
 
 /* Footer Style */
