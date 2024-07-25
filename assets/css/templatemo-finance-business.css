@@ -707,7 +707,10 @@ h2{
 	margin-bottom: 20px;
 }
 
+#services{
 
+	background-image: url(../images/Our\ Services.png);
+}
 
 /* Fun Facts */
 
@@ -795,6 +798,10 @@ h2{
 .about-info .right-content {
 	padding: 0px!important;
 	margin-right: 30px;
+}
+
+#about-bn{
+	background-image: url(../images/About\ us.png);
 }
 
 .more-info .right-content {
@@ -1199,7 +1206,6 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1368,6 +1374,11 @@ footer .contact-form button.filled-button:hover {
 	font-weight: 600;
 	color: #0A316A;
 	font-size: 15px;
+}
+
+#contact-page{
+	
+	background-image: url(../images/Contact\ Us.png);
 }
 
 
