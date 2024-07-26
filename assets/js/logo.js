@@ -1,14 +1,32 @@
-/* Get the logo image element
-const LogoImg = document.getElementById('Logo-img');
+let logo, menu;
+let hasChanged = false;
+let imagenes = [];
+imagenes[0] = "https://res.cloudinary.com/ddm3kjlbm/image/upload/v1721974004/3pinos/Logos/azul.png";
+imagenes[1] = "https://res.cloudinary.com/ddm3kjlbm/image/upload/v1721974004/3pinos/Logos/blanco.png";
+window.onload = ()=>{
+  logo = document.getElementById("logo");
+  menu = document.querySelector(".menu");
+  document.addEventListener('scroll',cambiarImagen);
+}
 
-// Add event listener to the window scroll event
-window.addEventListener('scroll', () => {
-    // Check if the window has scrolled past a certain point (in this case, 200px)
-    if (window.scrollY > 200) {
-        // Change the logo image src
-        LogoImg.src = '../images/blanco.png';
-    } else {
-        // Change the logo image src back to the original
-        LogoImg.src = '../images/azul.png';
-    }
-});*/
+function cambiarImagen(event){
+// Obtener la altura total del documento y la posición de scroll actual
+            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const documentHeight = document.documentElement.scrollHeight;
+            const windowHeight = window.innerHeight;
+            
+            // Calcular el punto medio de la página
+            const halfwayPoint = documentHeight / 2;
+            
+          //alert(scrollTop + " " + windowHeight+ " " + halfwayPoint);  
+            // Verificar si el scroll ha llegado a la mitad de la página
+            //if (scrollTop + windowHeight >= halfwayPoint)
+            if(scrollTop >50)
+            {
+              logo.src = imagenes[0];
+            } 
+            else 
+            {
+              logo.src = imagenes[1];
+            }
+}
