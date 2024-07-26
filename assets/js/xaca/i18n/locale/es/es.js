@@ -25,6 +25,25 @@ export default {
   "tp-footer-contact-title":"Contact",
   "tp-footer-contact-p":"Weston – Florida United States  Medellín - Antioquia  Colombia",
 
+  /* fin index*/
+
+  /* about */
+
+  "tp-more-info-title":"Quienes somos",
+  "tp-more-info-p":"Tras años liderando procesos ejecutivos, estratégicos y financieros en múltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento.  Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel. Proporcionamos soluciones personalizadas que optimizan la eficiencia y la eficacia de los procesos empresariales. Nuestra misión es impulsar el crecimiento y el éxito de las empresas a través de un enfoque integral centrado en sus necesidades específicas. Aspiramos a ser reconocidos como el socio estratégico de confianza, distinguidos por nuestra excelencia en la prestación de servicios de consultoría y gestión. ",
+  "tp-team-section-heading-title":"Miembros del equipo",
+  "tp-team-section-heading-span":"Equipo altamente calificado",
+  "tp-team-item-h4-1":"Mauricio Vasquez Barrera",
+  "tp-team-item-span-1":"Socio / Fundador",
+  "tp-team-item-p-1":"Experimentado en gestión financiera y estratégica actuando como gerente financiero, gerente de estrategia y gerente general en empresas en el sector financiero y en el sector real. Formado en Ingeniería Administrativa (Universidad EIA), Especialista en Finanzas Corporativas (Universidad EIA), Magister en Economía Aplicada (Universidad EAFIT).",
+  "tp-team-item-h2-2":"Laura Jiménez Pulido",
+  "tp-team-item-span-2":"Socia / Fundadora",
+
+  
+  
+
+
+
 };
 
 /*
