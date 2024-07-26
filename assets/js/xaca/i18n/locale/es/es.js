@@ -22,9 +22,7 @@ export default {
   "tp-conf-title":"Confían en nosotros",
   "tp-callback-title":"Solicitar una llamada",
   "tp-callback-p":"Con gusto nos pondremos en contacto contigo",
-  "tp-footer-contact-title":"Contact",
-  "tp-footer-contact-p":"Weston – Florida United States  Medellín - Antioquia  Colombia",
-
+  
   /* fin index*/
 
   /* about */
@@ -36,14 +34,60 @@ export default {
   "tp-team-item-h4-1":"Mauricio Vasquez Barrera",
   "tp-team-item-span-1":"Socio / Fundador",
   "tp-team-item-p-1":"Experimentado en gestión financiera y estratégica actuando como gerente financiero, gerente de estrategia y gerente general en empresas en el sector financiero y en el sector real. Formado en Ingeniería Administrativa (Universidad EIA), Especialista en Finanzas Corporativas (Universidad EIA), Magister en Economía Aplicada (Universidad EAFIT).",
-  "tp-team-item-h2-2":"Laura Jiménez Pulido",
+  "tp-team-item-h4-2":"Laura Jiménez Pulido",
   "tp-team-item-span-2":"Socia / Fundadora",
-
+  "tp-team-item-p-2":"Amplia trayectoria en el sector Retail con responsabilidades en áreas de logística, financieras y gerencia de cuentas clave en multinacionales. Formada en Ingeniería Industrial (Universidad EIA), Especialista en Economía (Universidad de los Andes), Magister en Economía Aplicada (Universidad EAFIT).",
+  "tp-team-item-h4-3":"Andres Valencia Trujillo",
+  "tp-team-item-span-3":"Asociado",
+  "tp-teak-item-p-3":"Con experiencia en consultoría y ejecución financiera, diseño y optimización de procesos y gerencia en compañías BPO. Formado en Finanzas y Relaciones Internacionales (Universidad Externado de Colombia), Especialista en Finanzas Corporativas (CESA).",
   
-  
 
 
+  /* services */
 
+  "tp-single-services-title-h1":"Nuestros Servicios",
+  "tp-single-services-title-1":"Consultoría y Gestión",
+  "tp-single-services-title-2":"Outsourcing",
+  "tp-single-services-title-3":"Staffing",
+  "tp-single-services-tab-1-li-1":"Diseño de estructura corporativa",
+  "tp-single-services-tab-1-li-2":"Desarrollo de la estrategia",
+  "tp-single-services-tab-1-li-3":"Control y Gestión estratégica",
+  "tp-single-services-tab-1-li-4":"Diseño de procesos y KPIS",
+  "tp-single-services-tab-1-li-5":"Planeación Financiera",
+  "tp-single-services-tab-1-li-6":"Diseño y control de presupuestos",
+  "tp-single-services-tab-1-li-7":"Diseño estructural e implementación de ERP",
+  "tp-single-services-tab-2-li-1":"Dirección financiera",
+  "tp-single-services-tab-2-li-2":"Contabilidad y Bookkeeping bajo normas NIIF en Colombia y US GAAP en USA",
+  "tp-single-services-tab-2-li-3":"Digitación",
+  "tp-single-services-tab-2-li-4":"Administración de nómina",
+  "tp-single-services-tab-2-li-5":"Compras",
+  "tp-single-services-tab-3-li-1":"Planeación financiera",
+  "tp-single-services-tab-3-li-2":"Contabilidad",
+  "tp-single-services-tab-3-li-3":"Logística",
+  "tp-single-services-callback-title":"Solicita una llamada",
+
+
+  /*  Contact  */
+
+  "tp-contact-title":"Contáctanos",
+  "tp-contact-span":"NO DUDES EN ENVIARNOS UN MENSAJE AHORA",
+  "tp-contact-item-p":"Contáctanos para más información y con gusto te atenderemos",
+  "tp-contact-item-h4":"Ubicación",
+
+ /* form */
+
+ "tp-form-name":"nombre",
+ "tp-form-email":"Correo",
+ "tp-form-message":"Mensaje",
+ 
+
+
+  /* footer */
+
+  "tp-footer-contact-title":"Contact",
+  "tp-footer-contact-p":"Weston – Florida United States  Medellín - Antioquia  Colombia",
+
+  /* Fin footer */
 };
 
 /*
