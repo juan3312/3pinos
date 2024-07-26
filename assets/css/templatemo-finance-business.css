@@ -707,7 +707,7 @@ h2{
 	margin-bottom: 20px;
 }
 
-#services{
+#services-bg{
 
 	background-image: url(../images/Our\ Services.png);
 }
@@ -800,7 +800,7 @@ h2{
 	margin-right: 30px;
 }
 
-#about-bn{
+#about-bg{
 	background-image: url(../images/About\ us.png);
 }
 
@@ -1376,7 +1376,7 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
-#contact-page{
+#contact-bg{
 	
 	background-image: url(../images/Contact\ Us.png);
 }
