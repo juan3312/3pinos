@@ -655,16 +655,17 @@
           document.getElementById("tp-btn").innerHTML = polyglot.t("tp-btn");
           document.getElementById("tp-form-1").innerHTML = polyglot.t("tp-form-1");
           document.getElementById("tp-txt-form").innerHTML = polyglot.t("tp-txt-form");
-          document.getElementById("tp-services-hd-title").innerHTML = polyglot.t("tp-services-hd-title");
-          document.getElementById("tp-services-hd-span").innerHTML = polyglot.t("tp-services-hd-span");
-          document.getElementById("tp-services-hd-title-1").innerHTML = polyglot.t("tp-services-hd-title-1");
-          document.getElementById("tp-services-hd-title-2").innerHTML = polyglot.t("tp-services-hd-title-2");
-          document.getElementById("tp-services-hd-title-3").innerHTML = polyglot.t("tp-services-hd-title-3");
+          document.getElementById("tp-service-hd-title").innerHTML = polyglot.t("tp-service-hd-title");
+          document.getElementById("tp-service-hd-span").innerHTML = polyglot.t("tp-service-hd-span");
+          document.getElementById("tp-service-hd-title-1").innerHTML = polyglot.t("tp-service-hd-title-1");
+          document.getElementById("tp-service-hd-title-2").innerHTML = polyglot.t("tp-service-hd-title-2");
+          document.getElementById("tp-service-hd-title-3").innerHTML = polyglot.t("tp-service-hd-title-3");
           document.getElementById("tp-hd-more-info-title").innerHTML = polyglot.t("tp-hd-more-info-title");
           document.getElementById("tp-hd-more-info-p").innerHTML = polyglot.t("tp-hd-more-info-p");
           document.getElementById("tp-conf-title").innerHTML = polyglot.t("tp-conf-title");
           document.getElementById("tp-callback-title").innerHTML = polyglot.t("tp-callback-title");
           document.getElementById("tp-callback-p").innerHTML = polyglot.t("tp-callback-p");
+          /*
           document.getElementById("tp-more-info-title").innerHTML = polyglot.t("tp-more-info-title");
           document.getElementById("tp-team-section-heading-title").innerHTML = polyglot.t("tp-team-section-heading-title");
           document.getElementById("tp-team-section-heading-span").innerHTML = polyglot.t("tp-team-section-heading-span");
@@ -707,6 +708,7 @@
           document.getElementById("tp-form-submit").innerHTML = polyglot.t("tp-form-submit");
           document.getElementById("tp-footer-contact-title").innerHTML = polyglot.t("tp-footer-contact-title");
           document.getElementById("tp-footer-contact-p").innerHTML = polyglot.t("tp-footer-contact-p");
+          */
       } catch (e) {
           console.warn("Polyglot", e);
       }
@@ -2152,17 +2154,19 @@
   var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
   parcelHelpers.defineInteropFlag(exports);
   exports.default = {
+      /* Menu */
       "tp_menu_1": "MyFit",
       "tp_menu_2": "ABOUT",
       "tp_menu_3": "SERVICES",
       "tp_menu_4": "CONTACT US",
+      /* Banners */
       "tp-bn-h4-1": "Customized solutions",
       "tp-bn-h4-2": "We drive your growth",
       "tp-bn-h4-3": "A highly qualified team",
       "tp-bn-p-1": "that drive efficiency, productivity, and growth for your company.",
       "tp-bn-p-2": "We create value through our three lines of service",
       "tp-bn-p-3": "Your projects will be completed timely and with the highest standards of quality",
-      "tp-btn": "READ MORE",
+      "tp-btn": "READ MORE", 
       "tp-form-1": "Request a call back right now ?",
       "tp-txt-form": "We will gladly assist you",
       "tp-service-hd-title": "Our services",
@@ -2175,7 +2179,9 @@
       "tp-conf-title": "Who trust in us",
       "tp-callback-title": "Request a call back",
       "tp-callback-p": "We will gladly get in touch with you",
-      /* fin index*/ /* about */ "tp-more-info-title": "ABOUT US",
+      /* fin index*/ 
+      /* about */ 
+      "tp-more-info-title": "ABOUT US",
       "tp-more-info-p": "After years of leading executive, strategic, and financial processes in multiple organizations across diverse sectors, we learned to identify and address real needs that companies face to accelerate their growth. We founded 3 Pinos to share the knowledge and lessons learned with growing companies that need to advance to the next level. We provide customized solutions that optimize the efficiency and effectiveness of business processes. Our mission is to drive the growth and success of companies through a comprehensive approach focused on their specific needs. We aspire to be recognized as the trusted strategic partner, distinguished by our excellence in providing consulting and management\xa0services. ",
       "tp-team-section-heading-title": "Our team members",
       "tp-team-section-heading-span": "highly qualified team",
@@ -2188,7 +2194,8 @@
       "tp-team-item-h4-3": "Andres Valencia Trujillo",
       "tp-team-item-span-3": "Associate",
       "tp-teak-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies.",
-      /* services */ "tp-single-services-title-h1": "OUR SERVICES",
+      /* services */ 
+      "tp-single-services-title-h1": "OUR SERVICES",
       "tp-single-services-title-1": "Consulting and management",
       "tp-single-services-title-2": "Outsourcing",
       "tp-single-services-title-3": "Staffing",
@@ -2208,15 +2215,18 @@
       "tp-single-services-tab-3-li-2": "Accounting",
       "tp-single-services-tab-3-li-3": "Logistics",
       "tp-single-services-callback-title": "Request a call",
-      /*  Contact  */ "tp-contact-title": "CONTACT US",
+      /*  Contact  */ 
+      "tp-contact-title": "CONTACT US",
       "tp-contact-span": "Don't Hesitate To Send Us A Message Now",
       "tp-contact-item-p": "Contact us for more information and we will be happy to assist you",
       "tp-contact-item-h4": "Location",
-      /* form */ "tp-form-name": "Name",
+      /* form */ 
+      "tp-form-name": "Name",
       "tp-form-email": "Email",
       "tp-form-message": "Message",
       "tp-form-submit": "Submit",
-      /* footer */ "tp-footer-contact-title": "Contact",
+      /* footer */ 
+      "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
   }; /*
   "Hello World": "Hello World",
@@ -2284,7 +2294,9 @@
       "tp-conf-title": "Conf\xedan en nosotros",
       "tp-callback-title": "Solicitar una llamada",
       "tp-callback-p": "Con gusto nos pondremos en contacto contigo",
-      /* fin index*/ /* about */ "tp-more-info-title": "Quienes somos",
+      /* fin index*/ 
+      /* about */ 
+      "tp-more-info-title": "Quienes somos",
       "tp-more-info-p": "Tras a\xf1os liderando procesos ejecutivos, estrat\xe9gicos y financieros en m\xfaltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento.  Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel. Proporcionamos soluciones personalizadas que optimizan la eficiencia y la eficacia de los procesos empresariales. Nuestra misi\xf3n es impulsar el crecimiento y el \xe9xito de las empresas a trav\xe9s de un enfoque integral centrado en sus necesidades espec\xedficas. Aspiramos a ser reconocidos como el socio estrat\xe9gico de confianza, distinguidos por nuestra excelencia en la prestaci\xf3n de servicios de consultor\xeda\xa0y\xa0gesti\xf3n. ",
       "tp-team-section-heading-title": "Miembros del equipo",
       "tp-team-section-heading-span": "Equipo altamente calificado",
@@ -2297,7 +2309,8 @@
       "tp-team-item-h4-3": "Andres Valencia Trujillo",
       "tp-team-item-span-3": "Asociado",
       "tp-teak-item-p-3": "Con experiencia en consultor\xeda y ejecuci\xf3n financiera, dise\xf1o y optimizaci\xf3n de procesos y gerencia en compa\xf1\xedas BPO. Formado en Finanzas y Relaciones Internacionales (Universidad Externado de Colombia), Especialista en Finanzas Corporativas\xa0(CESA).",
-      /* services */ "tp-single-services-title-h1": "Nuestros Servicios",
+      /* services */ 
+      "tp-single-services-title-h1": "Nuestros Servicios",
       "tp-single-services-title-1": "Consultor\xeda y Gesti\xf3n",
       "tp-single-services-title-2": "Outsourcing",
       "tp-single-services-title-3": "Staffing",
@@ -2317,15 +2330,18 @@
       "tp-single-services-tab-3-li-2": "Contabilidad",
       "tp-single-services-tab-3-li-3": "Log\xedstica",
       "tp-single-services-callback-title": "Solicita una llamada",
-      /*  Contact  */ "tp-contact-title": "Cont\xe1ctanos",
+      /*  Contact  */ 
+      "tp-contact-title": "Cont\xe1ctanos",
       "tp-contact-span": "NO DUDES EN ENVIARNOS UN MENSAJE AHORA",
       "tp-contact-item-p": "Cont\xe1ctanos para m\xe1s informaci\xf3n y con gusto te atenderemos",
       "tp-contact-item-h4": "Ubicaci\xf3n",
-      /* form */ "tp-form-name": "nombre",
+      /* form */ 
+      "tp-form-name": "nombre",
       "tp-form-email": "Correo",
       "tp-form-message": "Mensaje",
       "tp-form-submit": "Asunto",
-      /* footer */ "tp-footer-contact-title": "Contact",
+      /* footer */ 
+      "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
   }; /*
   "Hello World": "Hello World",
