@@ -79,6 +79,7 @@ export default {
  "tp-form-name":"nombre",
  "tp-form-email":"Correo",
  "tp-form-message":"Mensaje",
+ "tp-form-submit":"Asunto",
  
 
 

@@ -59,7 +59,7 @@ function getLocale() {
     
     document.getElementById("tp_menu_1").innerHTML = polyglot.t("tp_menu_1");
     document.getElementById("tp_menu_2").innerHTML = polyglot.t("tp_menu_2");
-    document.getElementById("tp_menu_3").innerHTML = polyglot.t("tp_menu_2");
+    document.getElementById("tp_menu_3").innerHTML = polyglot.t("tp_menu_3");
     document.getElementById("tp_menu_4").innerHTML = polyglot.t("tp_menu_4");
     
   }
