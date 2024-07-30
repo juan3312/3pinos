@@ -1,10 +1,5 @@
 jQuery( document ).ready(function( $ ) {
-
-
 	"use strict";
-
-
-    
         $(function() {
             $( "#tabs" ).tabs();
         });
@@ -135,7 +130,6 @@ jQuery( document ).ready(function( $ ) {
     function mover(){
       posicion = posicion+1<=2?posicion+1:0;
       gsap.to(carrusel, { left: posiciones[posicion], duration: 1 });
-      console.log(posicion);
     }
 
     setInterval(mover,tiempo);
