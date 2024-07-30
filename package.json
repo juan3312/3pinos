@@ -2,10 +2,7 @@
   "name": "3pinos",
   "version": "1.0.0",
   "scripts": {
-    "local": "http-server -p 8080",
-    "build": "parcel build index.html --public-url ./",
-    "start": "parcel index.html",
-    "test": "parcel build prueba.html --public-url ./"
+    "local": "http-server -p 8080"
   },
   "keywords": [],
   "author": "",
