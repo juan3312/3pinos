@@ -2,7 +2,25 @@
 <html lang="en">
 
 <head>
-
+  <!-- inicio favicon-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- fin favicon-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -19,82 +37,7 @@
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
-  
-  <style type="text/css">
-      @keyframes slides {
-        from {
-          transform: translateX(0);
-        }
-        to {
-          transform: translateX(-50%);
-        }
-      }
-
-      .logos {
-        overflow: hidden;
-        padding: 30px 0px;
-        white-space: nowrap;
-        position: relative;
-      }
-
-      .logos:before, .logos:after {
-        position: absolute;
-        top: 0;
-        content: '';
-        width: 250px;
-        height: 100%;
-        z-index: 2;
-      }
-
-      .logos:before {
-        left: 0;
-        background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
-      }
-
-      .logos:after {
-        right: 0;
-        background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
-      }
-
-      .logo_items {
-        display: inline-block;
-        animation: 35s slides infinite linear;
-      }
-
-      .logos:hover .logo_items {
-        animation-play-state: paused;
-      }
-
-      .logo_items img{
-        height: 200px;
-      }
-
-      /* Rotador de banners */
-
-      .Modern-Slider {
-        position: relative;
-        width: 300vw;
-        height: 90vh;
-        overflow: hidden;
-      }
-
-      .Modern-Slider .item{
-        /*transition: transform 0.3s cubic-bezier(.694, .0482, .335, 1);*/
-        position: absolute;
-        width: 100vw;
-      }
-
-      .Modern-Slider .item-1{
-        left:0;
-      }
-      .Modern-Slider .item-2{
-        left:100vw;
-      }
-      .Modern-Slider .item-3{
-        left:200vw;
-      }
-  </style>
-  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
@@ -133,7 +76,9 @@
   <header class="menu azul">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img id="logo" src="./assets/images/blanco.png"></a>
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="./assets/images/blanco.png">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -145,18 +90,18 @@
               <a class="nav-link" id="tp_menu_1" href="https://www.myfiterp.com">MyFit</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" id="tp_menu_2" href="about.html">About Us</a>
+              <a class="nav-link" id="tp_menu_2" href="about.html">NOSOTROS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="tp_menu_3" href="services.html">Our Services</a>
+              <a class="nav-link" id="tp_menu_3" href="services.html">SERVICIOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="tp_menu_4" href="contact.html">Contact Us</a>
+              <a class="nav-link" id="tp_menu_4" href="contact.html">CONTÁCTANOS</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item cont_idioma">
               <a id="btn_en" idioma="en" href="javascript:void(0);">EN</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item cont_idioma">
               <a id="btn_es" idioma="es" href="javascript:void(0);">ES</a>
             </li>
           </ul>
@@ -457,11 +402,11 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/accordions.js"></script>
-    <script src="assets/js/logo.js"></script>
     <script src="assets/js/xaca/index.45767f6c.js"></script>
     
 </body>

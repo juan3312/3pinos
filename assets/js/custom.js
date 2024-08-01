@@ -3,9 +3,7 @@ jQuery( document ).ready(function( $ ) {
         $(function() {
             $( "#tabs" ).tabs();
         });
-
         // Page loading animation
-
         $("#preloader").animate({
             'opacity': '0'
         }, 600, function(){
@@ -14,16 +12,25 @@ jQuery( document ).ready(function( $ ) {
             }, 300);
         });       
 
+        /* Logo */
+        let logo;
+        let hasChanged = false;
+        let imagenes = [];
+        imagenes[0] = "/assets/images/blanco.png";
+        imagenes[1] = "/assets/images/azul.png";
+        logo = document.getElementById("logo");
 
-
-        $(window).scroll(function() {
+        $(window).scroll(function() 
+        {
           var scroll = $(window).scrollTop();
           var box = $('.header-text').height();
           var header = $('header').height();
 
           if (scroll >= box - header) {
+            logo.src = imagenes[1];
             $("header").addClass("background-header");
           } else {
+            logo.src = imagenes[0];
             $("header").removeClass("background-header");
           }
         });
@@ -86,42 +93,31 @@ jQuery( document ).ready(function( $ ) {
                     }
                 }
             });
+        }          
+
+    /*function cambiarImagen(event){
+    // Obtener la altura total del documento y la posición de scroll actual
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const documentHeight = document.documentElement.scrollHeight;
+        const windowHeight = window.innerHeight;
+        
+        // Calcular el punto medio de la página
+        const halfwayPoint = documentHeight / 2;
+        
+        //alert(scrollTop + " " + windowHeight+ " " + halfwayPoint);  
+        // Verificar si el scroll ha llegado a la mitad de la página
+        //if (scrollTop + windowHeight >= halfwayPoint)
+        if(scrollTop > 50)
+        {
+            logo.src = imagenes[1];
+        } 
+        else 
+        {
+            logo.src = imagenes[0];
         }
+    }*/
 
-        function visible(partial) {
-            var $t = partial,
-                $w = jQuery(window),
-                viewTop = $w.scrollTop(),
-                viewBottom = viewTop + $w.height(),
-                _top = $t.offset().top,
-                _bottom = _top + $t.height(),
-                compareTop = partial === true ? _bottom : _top,
-                compareBottom = partial === true ? _top : _bottom;
-
-            return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
-
-        }
-
-        $(window).scroll(function(){
-
-          if(visible($('.count-digit')))
-            {
-              if($('.count-digit').hasClass('counter-loaded')) return;
-              $('.count-digit').addClass('counter-loaded');
-              
-        $('.count-digit').each(function () {
-          var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
-            duration: 3000,
-            easing: 'swing',
-            step: function () {
-              $this.text(Math.ceil(this.Counter));
-            }
-          });
-        });
-        }
-    })
- 
+    /* Carrusel de banners*/
     var posiciones = ["0","-100vw","-200vw"];
     var carrusel = document.querySelector(".Modern-Slider");
     var posicion = 0;
@@ -132,7 +128,10 @@ jQuery( document ).ready(function( $ ) {
       gsap.to(carrusel, { left: posiciones[posicion], duration: 1 });
     }
 
-    setInterval(mover,tiempo);
+    if(carrusel)
+    {
+        setInterval(mover,tiempo);
+    }
 
 });
 
