@@ -16,6 +16,7 @@ export default {
   "tp-btn-5":"VER MÁS",
   "tp-btn-6":"VER MÁS",
   "tp-btn-7":"VER MÁS",
+  "tp-btn-contact-bn":"CONTÁCTANOS",
   "tp-form-1":"¡Solicita una llamada ahora mismo!",
   "tp-txt-form":"Con gusto te atenderemos",
   "tp-service-hd-title":"Nuestros Servicios",
@@ -49,13 +50,14 @@ export default {
   "tp-team-item-p-2":"Amplia trayectoria en el sector Retail con responsabilidades en áreas de logística, financieras y gerencia de cuentas clave en multinacionales. Formada en Ingeniería Industrial (Universidad EIA), Especialista en Economía (Universidad de los Andes), Magister en Economía Aplicada (Universidad EAFIT).",
   "tp-team-item-h4-3":"Andres Valencia Trujillo",
   "tp-team-item-span-3":"Asociado",
-  "tp-teak-item-p-3":"Con experiencia en consultoría y ejecución financiera, diseño y optimización de procesos y gerencia en compañías BPO. Formado en Finanzas y Relaciones Internacionales (Universidad Externado de Colombia), Especialista en Finanzas Corporativas (CESA).",
+  "tp-team-item-p-3":"Con experiencia en consultoría y ejecución financiera, diseño y optimización de procesos y gerencia en compañías BPO. Formado en Finanzas y Relaciones Internacionales (Universidad Externado de Colombia), Especialista en Finanzas Corporativas (CESA).",
   
 
 
   /* services */
 
   "tp-single-services-title-h1":"Nuestros Servicios",
+  "tp-single-services-title-1-tab":"Consultoría y Gestión",
   "tp-single-services-title-1":"Consultoría y Gestión",
   "tp-single-services-title-2":"Outsourcing",
   "tp-single-services-title-3":"Staffing",

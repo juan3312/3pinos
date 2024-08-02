@@ -64,11 +64,13 @@ function getLocale() {
     document.getElementById("tp-bn-h4-1").innerHTML = polyglot.t("tp-bn-h4-1");
     document.getElementById("tp-bn-h4-2").innerHTML = polyglot.t("tp-bn-h4-2");
     document.getElementById("tp-bn-h4-3").innerHTML = polyglot.t("tp-bn-h4-3");
-    document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-2");
+    document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-1");
+    document.getElementById("tp-bn-p-2").innerHTML = polyglot.t("tp-bn-p-2");
     document.getElementById("tp-bn-p-3").innerHTML = polyglot.t("tp-bn-p-3");
     document.getElementById("tp-btn-1").innerHTML = polyglot.t("tp-btn-1");
     document.getElementById("tp-btn-2").innerHTML = polyglot.t("tp-btn-2");
     document.getElementById("tp-btn-3").innerHTML = polyglot.t("tp-btn-3");
+    document.getElementById("tp-btn-contact-bn").innerHTML = polyglot.t("tp-btn-contact-bn");
     document.getElementById("tp-form-1").innerHTML = polyglot.t("tp-form-1");
     document.getElementById("tp-txt-form").innerHTML = polyglot.t("tp-txt-form");
     document.getElementById("tp-services-hd-title").innerHTML = polyglot.t("tp-services-hd-title");
@@ -82,6 +84,7 @@ function getLocale() {
     document.getElementById("tp-callback-title").innerHTML = polyglot.t("tp-callback-title");
     document.getElementById("tp-callback-p").innerHTML = polyglot.t("tp-callback-p");
     document.getElementById("tp-more-info-title").innerHTML = polyglot.t("tp-more-info-title");
+    document.getElementById("tp-more-info-p").innerHTML = polyglot.t("tp-more-info-p");
     document.getElementById("tp-form-name").innerHTML = polyglot.t("tp-form-name");
     document.getElementById("tp-form-email").innerHTML = polyglot.t("tp-form-email");
     document.getElementById("tp-form-message").innerHTML = polyglot.t("tp-form-message");
@@ -97,6 +100,7 @@ function getLocale() {
     document.getElementById("tp-team-item-h4-3").innerHTML = polyglot.t("tp-team-item-h4-3");
     document.getElementById("tp-team-item-span-3").innerHTML = polyglot.t("tp-team-item-span-3");
     document.getElementById("tp-teak-item-p-3").innerHTML = polyglot.t("tp-teak-item-p-3");
+    document.getElementById("tp-single-services-title-1-tab").innerHTML = polyglot.t("tp-single-services-title-1-tab");
     document.getElementById("tp-single-services-title-h1").innerHTML = polyglot.t("tp-single-services-title-h1");
     document.getElementById("tp-single-services-title-1").innerHTML = polyglot.t("tp-single-services-title-1");
     document.getElementById("tp-single-services-title-2").innerHTML = polyglot.t("tp-single-services-title-2");

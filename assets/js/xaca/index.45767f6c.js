@@ -664,7 +664,8 @@
             document.getElementById("tp-bn-h4-1").innerHTML = polyglot.t("tp-bn-h4-1");
             document.getElementById("tp-bn-h4-2").innerHTML = polyglot.t("tp-bn-h4-2");
             document.getElementById("tp-bn-h4-3").innerHTML = polyglot.t("tp-bn-h4-3");
-            document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-2");
+            document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-1");
+            document.getElementById("tp-bn-p-2").innerHTML = polyglot.t("tp-bn-p-2");
             document.getElementById("tp-bn-p-3").innerHTML = polyglot.t("tp-bn-p-3");
             document.getElementById("tp-btn-1").innerHTML = polyglot.t("tp-btn");
             document.getElementById("tp-btn-2").innerHTML = polyglot.t("tp-btn");
@@ -696,6 +697,7 @@
           if(document.getElementById("tp-more-info-title"))
           {
             document.getElementById("tp-more-info-title").innerHTML = polyglot.t("tp-more-info-title");
+            document.getElementById("tp-more-info-p").innerHTML = polyglot.t("tp-more-info-p");
             document.getElementById("tp-team-section-heading-title").innerHTML = polyglot.t("tp-team-section-heading-title");
             document.getElementById("tp-team-section-heading-span").innerHTML = polyglot.t("tp-team-section-heading-span");
             document.getElementById("tp-team-item-h4-1").innerHTML = polyglot.t("tp-team-item-h4-1");
@@ -706,7 +708,7 @@
             document.getElementById("tp-team-item-p-2").innerHTML = polyglot.t("tp-team-item-p-2");
             document.getElementById("tp-team-item-h4-3").innerHTML = polyglot.t("tp-team-item-h4-3");
             document.getElementById("tp-team-item-span-3").innerHTML = polyglot.t("tp-team-item-span-3");
-            document.getElementById("tp-teak-item-p-3").innerHTML = polyglot.t("tp-teak-item-p-3");
+            document.getElementById("tp-team-item-p-3").innerHTML = polyglot.t("tp-teak-item-p-3");
           }
           /* Services */
           if(document.getElementById("tp-single-services-title-h1"))
@@ -715,6 +717,7 @@
             document.getElementById("tp-single-services-title-1").innerHTML = polyglot.t("tp-single-services-title-1");
             document.getElementById("tp-single-services-title-2").innerHTML = polyglot.t("tp-single-services-title-2");
             document.getElementById("tp-single-services-title-3").innerHTML = polyglot.t("tp-single-services-title-3");
+            document.getElementById("tp-single-services-title-1-tab").innerHTML = polyglot.t("tp-single-services-title-1");
             document.getElementById("tp-single-services-tab-1-li-1").innerHTML = polyglot.t("tp-single-services-tab-1-li-1");
             document.getElementById("tp-single-services-tab-1-li-2").innerHTML = polyglot.t("tp-single-services-tab-1-li-2");
             document.getElementById("tp-single-services-tab-1-li-3").innerHTML = polyglot.t("tp-single-services-tab-1-li-3");
@@ -731,6 +734,7 @@
             document.getElementById("tp-single-services-tab-3-li-2").innerHTML = polyglot.t("tp-single-services-tab-3-li-2");
             document.getElementById("tp-single-services-tab-3-li-3").innerHTML = polyglot.t("tp-single-services-tab-3-li-3");
             document.getElementById("tp-single-services-callback-title").innerHTML = polyglot.t("tp-single-services-callback-title");
+            
           }
           /* Contact */
           if(document.getElementById("tp-contact-title"))
@@ -2200,6 +2204,7 @@
       "tp-bn-p-2": "We create value through our three lines of service",
       "tp-bn-p-3": "Your projects will be completed timely and with the highest standards of quality",
       "tp-btn": "READ MORE", 
+      "tp-btn-contact-bn":"CONTACT US",
       "tp-form-1": "Request a call back right now ?",
       "tp-txt-form": "We will gladly assist you",
       "tp-service-hd-title": "Our services",
@@ -2220,13 +2225,13 @@
       "tp-team-section-heading-span": "highly qualified team",
       "tp-team-item-h4-1": "Mauricio Vasquez Barrera",
       "tp-team-item-span-1": "Partner / Founder",
-      "tp-team-item-p-1": "Administrative Engineering (EIA University), Specialist in Corporate Finance (EIA University), Master's in Applied Economics (EAFIT University).",
+      "tp-team-item-p-1": "Experienced in financial and strategic management, having served as Financial Manager, Strategy Manager, and General Manager in companies within the financial and real sectors. Education: Administrative Engineering (EIA University), Specialist in Corporate Finance (EIA University), Master's in Applied Economics (EAFIT University)",
       "tp-team-item-h4-2": "Laura Jim\xe9nez Pulido",
       "tp-team-item-span-2": "Partner / Founder",
-      "tp-team-item-p-2": "Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies.",
+      "tp-team-item-p-2": "Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies. Education: Industrial Engineering (EIA University), Specialist in Economics (University of Los Andes), Master's in Applied Economics (EAFIT University)",
       "tp-team-item-h4-3": "Andres Valencia Trujillo",
       "tp-team-item-span-3": "Associate",
-      "tp-teak-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies.",
+      "tp-teak-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies. Education: Finance and International Relations (Externado University of Colombia), Specialist in Corporate Finance (CESA)",
       /* services */ 
       "tp-single-services-title-h1": "OUR SERVICES",
       "tp-single-services-title-1": "Consulting and management",
@@ -2315,6 +2320,7 @@
       "tp-bn-p-2": "Creamos valor a trav\xe9s de nuestras tres  l\xedneas de servicios.",
       "tp-bn-p-3": "Tus proyectos se completar\xe1n de manera oportuna y con los m\xe1s altos est\xe1ndares de calidad.",
       "tp-btn": "VER M\xc1S",
+
       "tp-form-1": "\xa1Solicita una llamada ahora mismo!",
       "tp-txt-form": "Con gusto te atenderemos",
       "tp-service-hd-title": "Nuestros Servicios",
