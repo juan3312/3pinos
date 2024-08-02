@@ -9,7 +9,13 @@ export default {
   "tp-bn-p-1":"that drive efficiency, productivity, and growth for your company.",
   "tp-bn-p-2":"We create value through our three lines of service",
   "tp-bn-p-3":"Your projects will be completed timely and with the highest standards of quality",
-  "tp-btn":"READ MORE",
+  "tp-btn-1":"READ MORE",
+  "tp-btn-2":"READ MORE",
+  "tp-btn-3":"READ MORE",
+  "tp-btn-4":"READ MORE",
+  "tp-btn-5":"READ MORE",
+  "tp-btn-6":"READ MORE",
+  "tp-btn-7":"READ MORE",
   "tp-form-1":"Request a call back right now ?",
   "tp-txt-form":"We will gladly assist you",
   "tp-service-hd-title":"Our services",
@@ -22,6 +28,10 @@ export default {
   "tp-conf-title":"Who trust in us",
   "tp-callback-title":"Request a call back",
   "tp-callback-p":"We will gladly get in touch with you",
+  "tp-form-name":"Name",
+  "tp-form-email":"Email",
+  "tp-form-message":"Message",
+  "tp-form-subject":"ubject",
   
   /* fin index*/
 
@@ -74,14 +84,7 @@ export default {
   "tp-contact-item-p":"Contact us for more information and we will be happy to assist you",
   "tp-contact-item-h4":"Location",
 
- /* form */
-
- "tp-form-name":"Name",
- "tp-form-email":"Email",
- "tp-form-message":"Message",
- "tp-form-submit":"Submit",
  
-
 
   /* footer */
 

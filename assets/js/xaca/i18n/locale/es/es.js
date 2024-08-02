@@ -9,7 +9,13 @@ export default {
   "tp-bn-p-1":"Que impulsan la eficiencia, productividad <br> y creciminento de tu empresa.",
   "tp-bn-p-2":"Creamos valor a través de nuestras tres  líneas de servicios.",
   "tp-bn-p-3":"Tus proyectos se completarán de manera oportuna y con los más altos estándares de calidad.",
-  "tp-btn":"VER MÁS",
+  "tp-btn-1":"VER MÁS",
+  "tp-btn-2":"VER MÁS",
+  "tp-btn-3":"VER MÁS",
+  "tp-btn-4":"VER MÁS",
+  "tp-btn-5":"VER MÁS",
+  "tp-btn-6":"VER MÁS",
+  "tp-btn-7":"VER MÁS",
   "tp-form-1":"¡Solicita una llamada ahora mismo!",
   "tp-txt-form":"Con gusto te atenderemos",
   "tp-service-hd-title":"Nuestros Servicios",
@@ -18,10 +24,14 @@ export default {
   "tp-service-hd-title-2":"Outsourcing",
   "tp-service-hd-title-3":"Staffing",
   "tp-hd-more-info-title":"Quiénes somos",
-  "tp-hd-more-info-p":"Tras años liderando procesos ejecutivos, estratégicos y financieros en múltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento. Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel.",
+  "tp-hd-more-info-p":"Tras años liderando procesos ejecutivos, estratégicos y financieros en múltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento. Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel. Proporcionamos soluciones personalizadas que optimizan la eficiencia y eficacia de los procesos de negocio. Nuestra misión es impulsar el crecimiento y el éxito de las empresas a través de un enfoque integral centrado en sus necesidades específicas. Aspiramos a ser reconocidos como el socio estratégico de confianza, distinguidos por nuestra excelencia en la prestación de servicios de consultoría y gestión.",
   "tp-conf-title":"Confían en nosotros",
   "tp-callback-title":"Solicitar una llamada",
   "tp-callback-p":"Con gusto nos pondremos en contacto contigo",
+  "tp-form-name":"nombre",
+  "tp-form-email":"Correo",
+  "tp-form-message":"Mensaje",
+  "tp-form-subject":"Asunto",
   
   /* fin index*/
 
@@ -74,14 +84,7 @@ export default {
   "tp-contact-item-p":"Contáctanos para más información y con gusto te atenderemos",
   "tp-contact-item-h4":"Ubicación",
 
- /* form */
-
- "tp-form-name":"nombre",
- "tp-form-email":"Correo",
- "tp-form-message":"Mensaje",
- "tp-form-submit":"Asunto",
  
-
 
   /* footer */
 

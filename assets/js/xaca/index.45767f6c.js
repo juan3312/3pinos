@@ -666,7 +666,13 @@
             document.getElementById("tp-bn-h4-3").innerHTML = polyglot.t("tp-bn-h4-3");
             document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-2");
             document.getElementById("tp-bn-p-3").innerHTML = polyglot.t("tp-bn-p-3");
-            document.getElementById("tp-btn").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-1").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-2").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-3").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-4").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-5").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-6").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-7").innerHTML = polyglot.t("tp-btn");
             document.getElementById("tp-form-1").innerHTML = polyglot.t("tp-form-1");
             document.getElementById("tp-txt-form").innerHTML = polyglot.t("tp-txt-form");
             document.getElementById("tp-service-hd-title").innerHTML = polyglot.t("tp-service-hd-title");
@@ -679,6 +685,11 @@
             document.getElementById("tp-conf-title").innerHTML = polyglot.t("tp-conf-title");
             document.getElementById("tp-callback-title").innerHTML = polyglot.t("tp-callback-title");
             document.getElementById("tp-callback-p").innerHTML = polyglot.t("tp-callback-p");
+            document.getElementById("tp-form-name").innerHTML = polyglot.t("tp-form-name");
+            document.getElementById("tp-form-email").innerHTML = polyglot.t("tp-form-email");
+            document.getElementById("tp-form-subject").innerHTML = polyglot.t("tp-form-subject");
+            document.getElementById("tp-form-message").innerHTML = polyglot.t("tp-form-message");
+
           }
           
           /* About */
@@ -728,10 +739,6 @@
             document.getElementById("tp-contact-span").innerHTML = polyglot.t("tp-contact-span");
             document.getElementById("tp-contact-item-p").innerHTML = polyglot.t("tp-contact-item-p");
             document.getElementById("tp-contact-item-h4").innerHTML = polyglot.t("tp-contact-item-h4");
-            document.getElementById("tp-form-name").innerHTML = polyglot.t("tp-form-name");
-            document.getElementById("tp-form-email").innerHTML = polyglot.t("tp-form-email");
-            document.getElementById("tp-form-message").innerHTML = polyglot.t("tp-form-message");
-            document.getElementById("tp-form-submit").innerHTML = polyglot.t("tp-form-submit");
             document.getElementById("tp-footer-contact-title").innerHTML = polyglot.t("tp-footer-contact-title");
             document.getElementById("tp-footer-contact-p").innerHTML = polyglot.t("tp-footer-contact-p");
           }
@@ -2250,7 +2257,7 @@
       "tp-form-name": "Name",
       "tp-form-email": "Email",
       "tp-form-message": "Message",
-      "tp-form-submit": "Submit",
+      "tp-form-subject": "Subject",
       /* footer */ 
       "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
@@ -2316,7 +2323,7 @@
       "tp-service-hd-title-2": "Outsourcing",
       "tp-service-hd-title-3": "Staffing",
       "tp-hd-more-info-title": "Qui\xe9nes somos",
-      "tp-hd-more-info-p": "Tras a\xf1os liderando procesos ejecutivos, estrat\xe9gicos y financieros en m\xfaltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento. Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel.",
+      "tp-hd-more-info-p": "Tras a\xf1os liderando procesos ejecutivos, estrat\xe9gicos y financieros en m\xfaltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento. Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel. <br> Proporcionamos soluciones personalizadas que optimizan la eficiencia y eficacia de los procesos de negocio. Nuestra misión es impulsar el crecimiento y el éxito de las empresas a través de un enfoque integral centrado en sus necesidades específicas. Aspiramos a ser reconocidos como el socio estratégico de confianza, distinguidos por nuestra excelencia en la prestación de servicios de consultoría y gestión.",
       "tp-conf-title": "Conf\xedan en nosotros",
       "tp-callback-title": "Solicitar una llamada",
       "tp-callback-p": "Con gusto nos pondremos en contacto contigo",
@@ -2365,7 +2372,7 @@
       "tp-form-name": "nombre",
       "tp-form-email": "Correo",
       "tp-form-message": "Mensaje",
-      "tp-form-submit": "Asunto",
+      "tp-form-subject": "Asunto",
       /* footer */ 
       "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
