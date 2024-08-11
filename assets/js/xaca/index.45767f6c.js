@@ -657,7 +657,14 @@
         {
             if(!isNaN(Number(i)))
             {
-                btns[i].innerHTML = obj.txt;
+                if(obj.placeholder)
+                {
+                    btns[i].placeholder = obj.txt;
+                }
+                else
+                {
+                    btns[i].innerHTML = obj.txt;
+                }
             }
         }
     }
@@ -665,19 +672,35 @@
   function cargarTextos() {
       try {
           /* Menu */
-          if(document.getElementById("tp_menu_1"))
-          {
-            document.getElementById("tp_menu_1").innerHTML = polyglot.t("tp_menu_1");
-            document.getElementById("tp_menu_2").innerHTML = polyglot.t("tp_menu_2");
-            document.getElementById("tp_menu_3").innerHTML = polyglot.t("tp_menu_3");
-            document.getElementById("tp_menu_4").innerHTML = polyglot.t("tp_menu_4");
-          }
-          /* Botones */
-          cambiarClase({
-              class:".tp-btn",
-              txt:polyglot.t("tp-btn")
-          });
+          
+            cambiarClase({
+                class:".tp_menu_1",
+                txt:polyglot.t("tp_menu_1")
+            });
+            cambiarClase({
+                class:".tp_menu_2",
+                txt:polyglot.t("tp_menu_2")
+            });
+            cambiarClase({
+                class:".tp_menu_3",
+                txt:polyglot.t("tp_menu_3")
+            });
+            cambiarClase({
+                class:".tp_menu_4",
+                txt:polyglot.t("tp_menu_4")
+            });
 
+          
+          /* Botones */
+            cambiarClase({
+                class:".tp-btn",
+                txt:polyglot.t("tp-btn")
+            });
+            cambiarClase({
+            class:".tp-btn-send",
+            txt:polyglot.t("tp-btn")
+            });
+          
           /* Home */
           if(document.getElementById("tp-bn-h4-1"))
           {
@@ -749,13 +772,43 @@
             document.getElementById("tp-contact-span").innerHTML = polyglot.t("tp-contact-span");
             document.getElementById("tp-contact-item-p").innerHTML = polyglot.t("tp-contact-item-p");
             document.getElementById("tp-contact-item-h4").innerHTML = polyglot.t("tp-contact-item-h4");
-            document.getElementById("tp-form-name").innerHTML = polyglot.t("tp-form-name");
-            document.getElementById("tp-form-email").innerHTML = polyglot.t("tp-form-email");
-            document.getElementById("tp-form-message").innerHTML = polyglot.t("tp-form-message");
+            /*document.getElementById("tp-form-name").placeholder = polyglot.t("tp-form-name");
+            document.getElementById("tp-form-email").placeholder  = polyglot.t("tp-form-email");
+            document.getElementById("tp-form-message").placeholder  = polyglot.t("tp-form-message");
             document.getElementById("tp-form-submit").innerHTML = polyglot.t("tp-form-submit");
-            document.getElementById("tp-footer-contact-title").innerHTML = polyglot.t("tp-footer-contact-title");
+            document.getElementById("tp-footer-contact-title").innerHTML = polyglot.t("tp-footer-contact-title");*/
             document.getElementById("tp-footer-contact-p").innerHTML = polyglot.t("tp-footer-contact-p");
           }
+          
+          cambiarClase({
+            class:".tp-footer-contact-title",
+            txt:polyglot.t("tp-footer-contact-title")
+          });
+          cambiarClase({
+            class:".tp-form-name",
+            txt:polyglot.t("tp-form-name"),
+            placeholder:true
+          });
+          cambiarClase({
+            class:".tp-form-email",
+            txt:polyglot.t("tp-form-email"),
+            placeholder:true
+          });
+          cambiarClase({
+            class:".tp-form-message",
+            txt:polyglot.t("tp-form-message"),
+            placeholder:true
+          });
+          cambiarClase({
+            class:".tp-form-submit",
+            txt:polyglot.t("tp-form-submit"),
+            placeholder:true
+          });
+          cambiarClase({
+            class:".tp-btn-send",
+            txt:polyglot.t("tp-btn-send")
+          });
+          
       } catch (e) {
           console.warn("Polyglot", e);
       }
@@ -2272,6 +2325,7 @@
       "tp-form-email": "Email",
       "tp-form-message": "Message",
       "tp-form-submit": "Submit",
+      "tp-btn-send":"Send",
       /* footer */ 
       "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
@@ -2387,8 +2441,9 @@
       "tp-form-email": "Correo",
       "tp-form-message": "Mensaje",
       "tp-form-submit": "Asunto",
+      "tp-btn-send":"Enviar",
       /* footer */ 
-      "tp-footer-contact-title": "Contact",
+      "tp-footer-contact-title": "Contacto",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
   }; /*
   "Hello World": "Hello World",
