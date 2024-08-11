@@ -684,8 +684,19 @@
             document.getElementById("tp-bn-h4-1").innerHTML = polyglot.t("tp-bn-h4-1");
             document.getElementById("tp-bn-h4-2").innerHTML = polyglot.t("tp-bn-h4-2");
             document.getElementById("tp-bn-h4-3").innerHTML = polyglot.t("tp-bn-h4-3");
-            document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-2");
+            document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-1");
+            document.getElementById("tp-bn-p-2").innerHTML = polyglot.t("tp-bn-p-2");
             document.getElementById("tp-bn-p-3").innerHTML = polyglot.t("tp-bn-p-3");
+<<<<<<< HEAD
+=======
+            document.getElementById("tp-btn-1").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-2").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-3").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-4").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-5").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-6").innerHTML = polyglot.t("tp-btn");
+            document.getElementById("tp-btn-7").innerHTML = polyglot.t("tp-btn");
+>>>>>>> refs/remotes/origin/main
             document.getElementById("tp-form-1").innerHTML = polyglot.t("tp-form-1");
             document.getElementById("tp-txt-form").innerHTML = polyglot.t("tp-txt-form");
             document.getElementById("tp-service-hd-title").innerHTML = polyglot.t("tp-service-hd-title");
@@ -698,6 +709,11 @@
             document.getElementById("tp-conf-title").innerHTML = polyglot.t("tp-conf-title");
             document.getElementById("tp-callback-title").innerHTML = polyglot.t("tp-callback-title");
             document.getElementById("tp-callback-p").innerHTML = polyglot.t("tp-callback-p");
+            document.getElementById("tp-form-name").innerHTML = polyglot.t("tp-form-name");
+            document.getElementById("tp-form-email").innerHTML = polyglot.t("tp-form-email");
+            document.getElementById("tp-form-subject").innerHTML = polyglot.t("tp-form-subject");
+            document.getElementById("tp-form-message").innerHTML = polyglot.t("tp-form-message");
+
           }
           
           /* About */
@@ -716,7 +732,11 @@
             document.getElementById("tp-team-item-p-2").innerHTML = polyglot.t("tp-team-item-p-2");
             document.getElementById("tp-team-item-h4-3").innerHTML = polyglot.t("tp-team-item-h4-3");
             document.getElementById("tp-team-item-span-3").innerHTML = polyglot.t("tp-team-item-span-3");
+<<<<<<< HEAD
             document.getElementById("tp-team-item-p-3").innerHTML = polyglot.t("tp-team-item-p-3");
+=======
+            document.getElementById("tp-team-item-p-3").innerHTML = polyglot.t("tp-teak-item-p-3");
+>>>>>>> refs/remotes/origin/main
           }
           /* Services */
           if(document.getElementById("tp-single-services-title-h1"))
@@ -725,6 +745,7 @@
             document.getElementById("tp-single-services-title-1").innerHTML = polyglot.t("tp-single-services-title-1");
             document.getElementById("tp-single-services-title-2").innerHTML = polyglot.t("tp-single-services-title-2");
             document.getElementById("tp-single-services-title-3").innerHTML = polyglot.t("tp-single-services-title-3");
+            document.getElementById("tp-single-services-title-1-tab").innerHTML = polyglot.t("tp-single-services-title-1");
             document.getElementById("tp-single-services-tab-1-li-1").innerHTML = polyglot.t("tp-single-services-tab-1-li-1");
             document.getElementById("tp-single-services-tab-1-li-2").innerHTML = polyglot.t("tp-single-services-tab-1-li-2");
             document.getElementById("tp-single-services-tab-1-li-3").innerHTML = polyglot.t("tp-single-services-tab-1-li-3");
@@ -741,6 +762,7 @@
             document.getElementById("tp-single-services-tab-3-li-2").innerHTML = polyglot.t("tp-single-services-tab-3-li-2");
             document.getElementById("tp-single-services-tab-3-li-3").innerHTML = polyglot.t("tp-single-services-tab-3-li-3");
             document.getElementById("tp-single-services-callback-title").innerHTML = polyglot.t("tp-single-services-callback-title");
+            
           }
           /* Contact */
           if(document.getElementById("tp-contact-title"))
@@ -749,10 +771,6 @@
             document.getElementById("tp-contact-span").innerHTML = polyglot.t("tp-contact-span");
             document.getElementById("tp-contact-item-p").innerHTML = polyglot.t("tp-contact-item-p");
             document.getElementById("tp-contact-item-h4").innerHTML = polyglot.t("tp-contact-item-h4");
-            document.getElementById("tp-form-name").innerHTML = polyglot.t("tp-form-name");
-            document.getElementById("tp-form-email").innerHTML = polyglot.t("tp-form-email");
-            document.getElementById("tp-form-message").innerHTML = polyglot.t("tp-form-message");
-            document.getElementById("tp-form-submit").innerHTML = polyglot.t("tp-form-submit");
             document.getElementById("tp-footer-contact-title").innerHTML = polyglot.t("tp-footer-contact-title");
             document.getElementById("tp-footer-contact-p").innerHTML = polyglot.t("tp-footer-contact-p");
           }
@@ -2214,6 +2232,7 @@
       "tp-bn-p-2": "We create value through our three lines of service",
       "tp-bn-p-3": "Your projects will be completed timely and with the highest standards of quality",
       "tp-btn": "READ MORE", 
+      "tp-btn-contact-bn":"CONTACT US",
       "tp-form-1": "Request a call back right now ?",
       "tp-txt-form": "We will gladly assist you",
       "tp-service-hd-title": "Our services",
@@ -2234,13 +2253,17 @@
       "tp-team-section-heading-span": "highly qualified team",
       "tp-team-item-h4-1": "Mauricio Vasquez Barrera",
       "tp-team-item-span-1": "Partner / Founder",
-      "tp-team-item-p-1": "Administrative Engineering (EIA University), Specialist in Corporate Finance (EIA University), Master's in Applied Economics (EAFIT University).",
+      "tp-team-item-p-1": "Experienced in financial and strategic management, having served as Financial Manager, Strategy Manager, and General Manager in companies within the financial and real sectors. Education: Administrative Engineering (EIA University), Specialist in Corporate Finance (EIA University), Master's in Applied Economics (EAFIT University)",
       "tp-team-item-h4-2": "Laura Jim\xe9nez Pulido",
       "tp-team-item-span-2": "Partner / Founder",
-      "tp-team-item-p-2": "Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies.",
+      "tp-team-item-p-2": "Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies. Education: Industrial Engineering (EIA University), Specialist in Economics (University of Los Andes), Master's in Applied Economics (EAFIT University)",
       "tp-team-item-h4-3": "Andres Valencia Trujillo",
       "tp-team-item-span-3": "Associate",
+<<<<<<< HEAD
       "tp-team-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies.",
+=======
+      "tp-teak-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies. Education: Finance and International Relations (Externado University of Colombia), Specialist in Corporate Finance (CESA)",
+>>>>>>> refs/remotes/origin/main
       /* services */ 
       "tp-single-services-title-h1": "OUR SERVICES",
       "tp-single-services-title-1": "Consulting and management",
@@ -2271,7 +2294,7 @@
       "tp-form-name": "Name",
       "tp-form-email": "Email",
       "tp-form-message": "Message",
-      "tp-form-submit": "Submit",
+      "tp-form-subject": "Subject",
       /* footer */ 
       "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"
@@ -2329,6 +2352,7 @@
       "tp-bn-p-2": "Creamos valor a trav\xe9s de nuestras tres  l\xedneas de servicios.",
       "tp-bn-p-3": "Tus proyectos se completar\xe1n de manera oportuna y con los m\xe1s altos est\xe1ndares de calidad.",
       "tp-btn": "VER M\xc1S",
+
       "tp-form-1": "\xa1Solicita una llamada ahora mismo!",
       "tp-txt-form": "Con gusto te atenderemos",
       "tp-service-hd-title": "Nuestros Servicios",
@@ -2337,7 +2361,7 @@
       "tp-service-hd-title-2": "Outsourcing",
       "tp-service-hd-title-3": "Staffing",
       "tp-hd-more-info-title": "Qui\xe9nes somos",
-      "tp-hd-more-info-p": "Tras a\xf1os liderando procesos ejecutivos, estrat\xe9gicos y financieros en m\xfaltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento. Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel.",
+      "tp-hd-more-info-p": "Tras a\xf1os liderando procesos ejecutivos, estrat\xe9gicos y financieros en m\xfaltiples organizaciones de diversos sectores, aprendimos a identificar y abordar las necesidades reales a las que se enfrentan las empresas para acelerar su crecimiento. Fundamos 3 Pinos para compartir el conocimiento y las lecciones aprendidas con empresas en crecimiento que necesitan avanzar al siguiente nivel. <br> Proporcionamos soluciones personalizadas que optimizan la eficiencia y eficacia de los procesos de negocio. Nuestra misión es impulsar el crecimiento y el éxito de las empresas a través de un enfoque integral centrado en sus necesidades específicas. Aspiramos a ser reconocidos como el socio estratégico de confianza, distinguidos por nuestra excelencia en la prestación de servicios de consultoría y gestión.",
       "tp-conf-title": "Conf\xedan en nosotros",
       "tp-callback-title": "Solicitar una llamada",
       "tp-callback-p": "Con gusto nos pondremos en contacto contigo",
@@ -2386,7 +2410,7 @@
       "tp-form-name": "nombre",
       "tp-form-email": "Correo",
       "tp-form-message": "Mensaje",
-      "tp-form-submit": "Asunto",
+      "tp-form-subject": "Asunto",
       /* footer */ 
       "tp-footer-contact-title": "Contact",
       "tp-footer-contact-p": "Weston \u2013 Florida United States  Medell\xedn - Antioquia  Colombia"

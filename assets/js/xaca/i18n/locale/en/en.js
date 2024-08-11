@@ -9,7 +9,14 @@ export default {
   "tp-bn-p-1":"that drive efficiency, productivity, and growth for your company.",
   "tp-bn-p-2":"We create value through our three lines of service",
   "tp-bn-p-3":"Your projects will be completed timely and with the highest standards of quality",
-  "tp-btn":"READ MORE",
+  "tp-btn-1":"READ MORE",
+  "tp-btn-2":"READ MORE",
+  "tp-btn-3":"READ MORE",
+  "tp-btn-4":"READ MORE",
+  "tp-btn-5":"READ MORE",
+  "tp-btn-6":"READ MORE",
+  "tp-btn-7":"READ MORE",
+  "tp-btn-contact-bn":"CONTACT US",
   "tp-form-1":"Request a call back right now ?",
   "tp-txt-form":"We will gladly assist you",
   "tp-service-hd-title":"Our services",
@@ -22,6 +29,10 @@ export default {
   "tp-conf-title":"Who trust in us",
   "tp-callback-title":"Request a call back",
   "tp-callback-p":"We will gladly get in touch with you",
+  "tp-form-name":"Name",
+  "tp-form-email":"Email",
+  "tp-form-message":"Message",
+  "tp-form-subject":"ubject",
   
   /* fin index*/
 
@@ -33,19 +44,20 @@ export default {
   "tp-team-section-heading-span":"highly qualified team",
   "tp-team-item-h4-1":"Mauricio Vasquez Barrera",
   "tp-team-item-span-1":"Partner / Founder",
-  "tp-team-item-p-1":"Administrative Engineering (EIA University), Specialist in Corporate Finance (EIA University), Master's in Applied Economics (EAFIT University).",
+  "tp-team-item-p-1":"Experienced in financial and strategic management, having served as Financial Manager, Strategy Manager, and General Manager in companies within the financial and real sectors. Education: Administrative Engineering (EIA University), Specialist in Corporate Finance (EIA University), Master's in Applied Economics (EAFIT University)",
   "tp-team-item-h4-2":"Laura Jiménez Pulido",
   "tp-team-item-span-2":"Partner / Founder",
-  "tp-team-item-p-2":"Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies.",
+  "tp-team-item-p-2":"Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies. Education: Industrial Engineering (EIA University), Specialist in Economics (University of Los Andes), Master's in Applied Economics (EAFIT University)",
   "tp-team-item-h4-3":"Andres Valencia Trujillo",
   "tp-team-item-span-3":"Associate",
-  "tp-teak-item-p-3":"Experienced in financial consulting and execution, process design and optimization, and management in BPO companies.",
+  "tp-team-item-p-3":"Experienced in financial consulting and execution, process design and optimization, and management in BPO companies. Education: Finance and International Relations (Externado University of Colombia), Specialist in Corporate Finance (CESA)",
   
 
 
   /* services */
 
   "tp-single-services-title-h1":"OUR SERVICES",
+  "tp-single-services-title-1-tab":"Consulting and management",
   "tp-single-services-title-1":"Consulting and management",
   "tp-single-services-title-2":"Outsourcing",
   "tp-single-services-title-3":"Staffing",
@@ -74,14 +86,7 @@ export default {
   "tp-contact-item-p":"Contact us for more information and we will be happy to assist you",
   "tp-contact-item-h4":"Location",
 
- /* form */
-
- "tp-form-name":"Name",
- "tp-form-email":"Email",
- "tp-form-message":"Message",
- "tp-form-submit":"Submit",
  
-
 
   /* footer */
 
