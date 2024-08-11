@@ -719,14 +719,19 @@
             document.getElementById("tp-hd-more-info-title").innerHTML = polyglot.t("tp-hd-more-info-title");
             document.getElementById("tp-hd-more-info-p").innerHTML = polyglot.t("tp-hd-more-info-p");
             document.getElementById("tp-conf-title").innerHTML = polyglot.t("tp-conf-title");
+            document.getElementById("tp-btn-contact-bn").innerHTML = polyglot.t("tp-btn-contact-bn");
+        }
+        
+        /* Formulario de contacto */
+        if(document.getElementById("tp-callback-title"))
+        {
             document.getElementById("tp-callback-title").innerHTML = polyglot.t("tp-callback-title");
             document.getElementById("tp-callback-p").innerHTML = polyglot.t("tp-callback-p");
-          }
-          
-          /* About */
-          if(document.getElementById("tp-more-info-title"))
-          {
-            
+        }
+
+        /* About */
+        if(document.getElementById("tp-more-info-title"))
+        {
             document.getElementById("tp-more-info-title").innerHTML = polyglot.t("tp-more-info-title");
             document.getElementById("tp-more-info-p").innerHTML = polyglot.t("tp-more-info-p");
             document.getElementById("tp-team-section-heading-title").innerHTML = polyglot.t("tp-team-section-heading-title");
@@ -740,14 +745,28 @@
             document.getElementById("tp-team-item-h4-3").innerHTML = polyglot.t("tp-team-item-h4-3");
             document.getElementById("tp-team-item-span-3").innerHTML = polyglot.t("tp-team-item-span-3");
             document.getElementById("tp-team-item-p-3").innerHTML = polyglot.t("tp-team-item-p-3");
-          }
-          /* Services */
-          if(document.getElementById("tp-single-services-title-h1"))
-          {
+        }
+        /* Services */
+        if(document.getElementById("tp-single-services-title-h1"))
+        { 
             document.getElementById("tp-single-services-title-h1").innerHTML = polyglot.t("tp-single-services-title-h1");
-            document.getElementById("tp-single-services-title-1").innerHTML = polyglot.t("tp-single-services-title-1");
+            /*document.getElementById("tp-single-services-title-1").innerHTML = polyglot.t("tp-single-services-title-1");
             document.getElementById("tp-single-services-title-2").innerHTML = polyglot.t("tp-single-services-title-2");
-            document.getElementById("tp-single-services-title-3").innerHTML = polyglot.t("tp-single-services-title-3");
+            document.getElementById("tp-single-services-title-3").innerHTML = polyglot.t("tp-single-services-title-3");*/
+
+            cambiarClase({
+                class:".tp-single-services-title-1",
+                txt:polyglot.t("tp-single-services-title-1")
+            });
+            cambiarClase({
+                class:".tp-single-services-title-2",
+                txt:polyglot.t("tp-single-services-title-2")
+            });
+            cambiarClase({
+                class:".tp-single-services-title-3",
+                txt:polyglot.t("tp-single-services-title-3")
+            });
+
             document.getElementById("tp-single-services-tab-1-li-1").innerHTML = polyglot.t("tp-single-services-tab-1-li-1");
             document.getElementById("tp-single-services-tab-1-li-2").innerHTML = polyglot.t("tp-single-services-tab-1-li-2");
             document.getElementById("tp-single-services-tab-1-li-3").innerHTML = polyglot.t("tp-single-services-tab-1-li-3");
@@ -763,11 +782,10 @@
             document.getElementById("tp-single-services-tab-3-li-1").innerHTML = polyglot.t("tp-single-services-tab-3-li-1");
             document.getElementById("tp-single-services-tab-3-li-2").innerHTML = polyglot.t("tp-single-services-tab-3-li-2");
             document.getElementById("tp-single-services-tab-3-li-3").innerHTML = polyglot.t("tp-single-services-tab-3-li-3");
-            document.getElementById("tp-single-services-callback-title").innerHTML = polyglot.t("tp-single-services-callback-title");
-          }
-          /* Contact */
-          if(document.getElementById("tp-contact-title"))
-          {
+        }
+        /* Contact */
+        if(document.getElementById("tp-contact-title"))
+        {
             document.getElementById("tp-contact-title").innerHTML = polyglot.t("tp-contact-title");
             document.getElementById("tp-contact-span").innerHTML = polyglot.t("tp-contact-span");
             document.getElementById("tp-contact-item-p").innerHTML = polyglot.t("tp-contact-item-p");
@@ -778,36 +796,36 @@
             document.getElementById("tp-form-submit").innerHTML = polyglot.t("tp-form-submit");
             document.getElementById("tp-footer-contact-title").innerHTML = polyglot.t("tp-footer-contact-title");*/
             document.getElementById("tp-footer-contact-p").innerHTML = polyglot.t("tp-footer-contact-p");
-          }
-          
-          cambiarClase({
+        }
+        
+        cambiarClase({
             class:".tp-footer-contact-title",
             txt:polyglot.t("tp-footer-contact-title")
-          });
-          cambiarClase({
+        });
+        cambiarClase({
             class:".tp-form-name",
             txt:polyglot.t("tp-form-name"),
             placeholder:true
-          });
-          cambiarClase({
+        });
+        cambiarClase({
             class:".tp-form-email",
             txt:polyglot.t("tp-form-email"),
             placeholder:true
-          });
-          cambiarClase({
+        });
+        cambiarClase({
             class:".tp-form-message",
             txt:polyglot.t("tp-form-message"),
             placeholder:true
-          });
-          cambiarClase({
+        });
+        cambiarClase({
             class:".tp-form-submit",
             txt:polyglot.t("tp-form-submit"),
             placeholder:true
-          });
-          cambiarClase({
+        });
+        cambiarClase({
             class:".tp-btn-send",
             txt:polyglot.t("tp-btn-send")
-          });
+        });
           
       } catch (e) {
           console.warn("Polyglot", e);
@@ -2279,6 +2297,7 @@
       "tp-conf-title": "Who trust in us",
       "tp-callback-title": "Request a call back",
       "tp-callback-p": "We will gladly get in touch with you",
+      "tp-btn-contact-bn": "Contact us",
       /* fin index*/ 
       /* about */ 
       "tp-more-info-title": "ABOUT US",
@@ -2314,7 +2333,6 @@
       "tp-single-services-tab-3-li-1": "Financial planning",
       "tp-single-services-tab-3-li-2": "Accounting",
       "tp-single-services-tab-3-li-3": "Logistics",
-      "tp-single-services-callback-title": "Request a call",
       /*  Contact  */ 
       "tp-contact-title": "CONTACT US",
       "tp-contact-span": "Don't Hesitate To Send Us A Message Now",
@@ -2395,6 +2413,7 @@
       "tp-conf-title": "Conf\xedan en nosotros",
       "tp-callback-title": "Solicitar una llamada",
       "tp-callback-p": "Con gusto nos pondremos en contacto contigo",
+      "tp-btn-contact-bn": "Cont\xe1ctanos",
       /* fin index*/ 
       /* about */ 
       "tp-more-info-title": "Quienes somos",
@@ -2414,7 +2433,7 @@
       "tp-single-services-title-h1": "Nuestros Servicios",
       "tp-single-services-title-1": "Consultor\xeda y Gesti\xf3n",
       "tp-single-services-title-2": "Outsourcing",
-      "tp-single-services-title-3": "Staffing",
+      "tp-single-services-title-3": "Staffing", 
       "tp-single-services-tab-1-li-1": "Dise\xf1o de estructura corporativa",
       "tp-single-services-tab-1-li-2": "Desarrollo de la estrategia",
       "tp-single-services-tab-1-li-3": "Control y Gesti\xf3n estrat\xe9gica",
@@ -2430,7 +2449,6 @@
       "tp-single-services-tab-3-li-1": "Planeaci\xf3n financiera",
       "tp-single-services-tab-3-li-2": "Contabilidad",
       "tp-single-services-tab-3-li-3": "Log\xedstica",
-      "tp-single-services-callback-title": "Solicita una llamada",
       /*  Contact  */ 
       "tp-contact-title": "Cont\xe1ctanos",
       "tp-contact-span": "NO DUDES EN ENVIARNOS UN MENSAJE AHORA",

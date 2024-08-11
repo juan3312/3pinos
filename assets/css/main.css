@@ -74,3 +74,14 @@
   .cont_idioma{
     margin-top:12px !important;
   }
+
+  /* Menu */
+  .pagina_actual{
+    font-weight: bold !important;
+  }
+
+  @media (max-width: 420px) {
+    .logo_mobile{
+      width: 48px !important;
+    }
+  }
