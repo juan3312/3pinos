@@ -648,6 +648,20 @@
       else languageObj = (0, _enJsDefault.default);
       return languageObj;
   }
+  /* Reemplaza varios elementos con la misma clase, se usa por ejemplo para reemplazar botones */
+  function cambiarClase(obj){
+    var btns = document.querySelectorAll(obj.class);
+    if(btns.length)
+    {
+        for(var i in btns)
+        {
+            if(!isNaN(Number(i)))
+            {
+                btns[i].innerHTML = obj.txt;
+            }
+        }
+    }
+  }
   function cargarTextos() {
       try {
           /* Menu */
@@ -658,6 +672,12 @@
             document.getElementById("tp_menu_3").innerHTML = polyglot.t("tp_menu_3");
             document.getElementById("tp_menu_4").innerHTML = polyglot.t("tp_menu_4");
           }
+          /* Botones */
+          cambiarClase({
+              class:".tp-btn",
+              txt:polyglot.t("tp-btn")
+          });
+
           /* Home */
           if(document.getElementById("tp-bn-h4-1"))
           {
@@ -666,7 +686,6 @@
             document.getElementById("tp-bn-h4-3").innerHTML = polyglot.t("tp-bn-h4-3");
             document.getElementById("tp-bn-p-1").innerHTML = polyglot.t("tp-bn-p-2");
             document.getElementById("tp-bn-p-3").innerHTML = polyglot.t("tp-bn-p-3");
-            document.getElementById("tp-btn").innerHTML = polyglot.t("tp-btn");
             document.getElementById("tp-form-1").innerHTML = polyglot.t("tp-form-1");
             document.getElementById("tp-txt-form").innerHTML = polyglot.t("tp-txt-form");
             document.getElementById("tp-service-hd-title").innerHTML = polyglot.t("tp-service-hd-title");
@@ -684,7 +703,9 @@
           /* About */
           if(document.getElementById("tp-more-info-title"))
           {
+            
             document.getElementById("tp-more-info-title").innerHTML = polyglot.t("tp-more-info-title");
+            document.getElementById("tp-more-info-p").innerHTML = polyglot.t("tp-more-info-p");
             document.getElementById("tp-team-section-heading-title").innerHTML = polyglot.t("tp-team-section-heading-title");
             document.getElementById("tp-team-section-heading-span").innerHTML = polyglot.t("tp-team-section-heading-span");
             document.getElementById("tp-team-item-h4-1").innerHTML = polyglot.t("tp-team-item-h4-1");
@@ -695,7 +716,7 @@
             document.getElementById("tp-team-item-p-2").innerHTML = polyglot.t("tp-team-item-p-2");
             document.getElementById("tp-team-item-h4-3").innerHTML = polyglot.t("tp-team-item-h4-3");
             document.getElementById("tp-team-item-span-3").innerHTML = polyglot.t("tp-team-item-span-3");
-            document.getElementById("tp-teak-item-p-3").innerHTML = polyglot.t("tp-teak-item-p-3");
+            document.getElementById("tp-team-item-p-3").innerHTML = polyglot.t("tp-team-item-p-3");
           }
           /* Services */
           if(document.getElementById("tp-single-services-title-h1"))
@@ -2219,7 +2240,7 @@
       "tp-team-item-p-2": "Extensive experience in the Retail sector with responsibilities in logistics, finance, and key account management in multinational companies.",
       "tp-team-item-h4-3": "Andres Valencia Trujillo",
       "tp-team-item-span-3": "Associate",
-      "tp-teak-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies.",
+      "tp-team-item-p-3": "Experienced in financial consulting and execution, process design and optimization, and management in BPO companies.",
       /* services */ 
       "tp-single-services-title-h1": "OUR SERVICES",
       "tp-single-services-title-1": "Consulting and management",
@@ -2334,7 +2355,7 @@
       "tp-team-item-p-2": "Amplia trayectoria en el sector Retail con responsabilidades en \xe1reas de log\xedstica, financieras y gerencia de cuentas clave en multinacionales. Formada en Ingenier\xeda Industrial (Universidad EIA), Especialista en Econom\xeda (Universidad de los Andes), Magister en Econom\xeda Aplicada (Universidad EAFIT).",
       "tp-team-item-h4-3": "Andres Valencia Trujillo",
       "tp-team-item-span-3": "Asociado",
-      "tp-teak-item-p-3": "Con experiencia en consultor\xeda y ejecuci\xf3n financiera, dise\xf1o y optimizaci\xf3n de procesos y gerencia en compa\xf1\xedas BPO. Formado en Finanzas y Relaciones Internacionales (Universidad Externado de Colombia), Especialista en Finanzas Corporativas\xa0(CESA).",
+      "tp-team-item-p-3": "Con experiencia en consultor\xeda y ejecuci\xf3n financiera, dise\xf1o y optimizaci\xf3n de procesos y gerencia en compa\xf1\xedas BPO. Formado en Finanzas y Relaciones Internacionales (Universidad Externado de Colombia), Especialista en Finanzas Corporativas\xa0(CESA).",
       /* services */ 
       "tp-single-services-title-h1": "Nuestros Servicios",
       "tp-single-services-title-1": "Consultor\xeda y Gesti\xf3n",
